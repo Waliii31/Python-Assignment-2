@@ -1,17 +1,3 @@
-# Python Operators Cheat Sheet
-
-## 📌 Class 01 Assignment - February 24
-
-This assignment involved reviewing the first class, setting up professional social media accounts, and learning the basics of Python data types and keywords.
-
-### ✅ Tasks Completed:
-- [x] Created X (Twitter) and LinkedIn Accounts
-- [x] Shared review of the first class
-- [x] Learned about Python data types and special keywords
-- [x] Explored Google Colab
-
----
-
 ## 📌 Class 02 Assignment - March 3
 
 ### 🎯 Assignment Goals
