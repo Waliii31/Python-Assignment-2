@@ -1,68 +1,119 @@
-# 📌 Class 01 Assignment - February 24  
+# Python Operators Cheat Sheet
 
-## Assignment Overview  
-This assignment involves setting up professional social media accounts, reviewing the first class, and learning essential Python concepts.  
+## 📌 Class 01 Assignment - February 24
 
-## ✨ Tasks  
+This assignment involved reviewing the first class, setting up professional social media accounts, and learning the basics of Python data types and keywords.
 
-1. **Create X (Twitter) and LinkedIn Accounts**  
-   - Use your real name for the profile.  
-   - Add a professional bio and profile picture.  
-   - Share a review of the first class.  
-   - Attach the profile links below:  
-
-   - 🔗 **X (Twitter):** [X (Twitter)](https://x.com/WaliZafri2005)  
-   - 🔗 **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/wali-zafri-profile/)  
-
-2. **Learn Python Data Types & Special Keywords**  
-   - Watch and understand the video tutorial.  
-
-3. **Explore Google Colab**  
-   - Learn how to use Google Colab for Python programming.  
-
-4. **Submit the Assignment**  
-   - Submit the form: [Assignment Submission Form](https://forms.gle/rH8SBsXyFddn6xhL8)  
+### ✅ Tasks Completed:
+- [x] Created X (Twitter) and LinkedIn Accounts
+- [x] Shared review of the first class
+- [x] Learned about Python data types and special keywords
+- [x] Explored Google Colab
 
 ---
 
-## 📝 Python Code  
-Below is the Python script demonstrating **data types and special keywords** covered in this assignment.  
+## 📌 Class 02 Assignment - March 3
 
-```python
-# Displaying Python Keywords
-from keyword import kwlist, softkwlist
+### 🎯 Assignment Goals
+Create a GitHub repository with simple code examples for each of the following Python operators:
 
-def display_keywords() -> None:
-    print("Python Keywords:")
-    for i, kw in enumerate(kwlist, start=1):
-        print(f"{i:2}: {kw}")
+- Arithmetic Operators
+- Assignment Operators
+- Comparison Operators
+- Logical Operators
+- Identity Operators
+- Membership Operators
+- Bitwise Operators
 
-    print("\nSoft Keywords:")
-    for i, skw in enumerate(softkwlist, start=1):
-        print(f'{i:2}: {skw}')
+📖 Learn more: [Python Operators - W3Schools](https://www.w3schools.com/python/python_operators.asp)  
+📤 Submit here: [Assignment Submission Form](https://forms.gle/FQGGj6xQYjai6v5JA)
 
-# Exploring Data Types
-def explore_data_types():
-    integer_value = 10       # Integer
-    float_value = 3.14       # Float
-    string_value = "Hello"   # String
-    boolean_value = True     # Boolean
-    list_value = [1, 2, 3]   # List
-    tuple_value = (4, 5, 6)  # Tuple
-    dict_value = {"name": "Alice", "age": 25}  # Dictionary
-    set_value = {7, 8, 9}    # Set
+---
 
-    print("\nData Types in Python:")
-    print(f"Integer: {integer_value} ({type(integer_value)})")
-    print(f"Float: {float_value} ({type(float_value)})")
-    print(f"String: {string_value} ({type(string_value)})")
-    print(f"Boolean: {boolean_value} ({type(boolean_value)})")
-    print(f"List: {list_value} ({type(list_value)})")
-    print(f"Tuple: {tuple_value} ({type(tuple_value)})")
-    print(f"Dictionary: {dict_value} ({type(dict_value)})")
-    print(f"Set: {set_value} ({type(set_value)})")
+## 🔢 Arithmetic Operators
 
-# Run functions
-if __name__ == "__main__":
-    display_keywords()
-    explore_data_types()
+| Operator | Name             | Example (`x=10`, `y=2`) | Result   |
+|----------|------------------|--------------------------|----------|
+| `+`      | Addition          | `x + y`                 | `12`     |
+| `-`      | Subtraction       | `x - y`                 | `8`      |
+| `*`      | Multiplication    | `x * y`                 | `20`     |
+| `/`      | Division          | `x / y`                 | `5.0`    |
+| `%`      | Modulus           | `x % y`                 | `0`      |
+| `**`     | Exponentiation    | `x ** y`                | `100`    |
+| `//`     | Floor Division    | `x // y`                | `5`      |
+
+---
+
+## 📝 Assignment Operators
+
+| Operator | Example  | Equivalent      | Meaning                       |
+|----------|----------|-----------------|-------------------------------|
+| `=`      | `a = 5`  | —               | Assign value                  |
+| `+=`     | `a += 5` | `a = a + 5`     | Add and assign                |
+| `-=`     | `a -= 5` | `a = a - 5`     | Subtract and assign           |
+| `*=`     | `a *= 5` | `a = a * 5`     | Multiply and assign           |
+| `/=`     | `a /= 5` | `a = a / 5`     | Divide and assign             |
+| `%=`     | `a %= 5` | `a = a % 5`     | Modulus and assign            |
+| `//=`    | `a //= 5`| `a = a // 5`    | Floor divide and assign       |
+| `**=`    | `a **= 5`| `a = a ** 5`    | Exponentiation and assign     |
+| `&=`     | `a &= 5` | `a = a & 5`     | Bitwise AND and assign        |
+| `|=`     | `a |= 5` | `a = a \| 5`    | Bitwise OR and assign         |
+| `^=`     | `a ^= 5` | `a = a ^ 5`     | Bitwise XOR and assign        |
+| `>>=`    | `a >>= 5`| `a = a >> 5`    | Right shift and assign        |
+| `<<=`    | `a <<= 5`| `a = a << 5`    | Left shift and assign         |
+
+---
+
+## 🧮 Comparison Operators
+
+| Operator | Meaning        | Example        | Result    |
+|----------|----------------|----------------|-----------|
+| `==`     | Equal to       | `x == y`       | `False`   |
+| `!=`     | Not equal to   | `x != y`       | `True`    |
+| `>`      | Greater than   | `x > y`        | `False`   |
+| `<`      | Less than      | `x < y`        | `True`    |
+| `>=`     | Greater or equal | `x >= y`     | `False`   |
+| `<=`     | Less or equal  | `x <= y`       | `True`    |
+
+---
+
+## 🤔 Logical Operators
+
+| Operator | Meaning                   | Example          | Result     |
+|----------|---------------------------|------------------|------------|
+| `and`    | Both must be true         | `True and False` | `False`    |
+| `or`     | At least one must be true | `True or False`  | `True`     |
+| `not`    | Inverts the result        | `not True`       | `False`    |
+
+---
+
+## 🪪 Identity Operators
+
+| Operator | Meaning                    | Example       | Result    |
+|----------|----------------------------|---------------|-----------|
+| `is`     | Same object in memory      | `a is b`      | `True`    |
+| `is not` | Not same object            | `a is not c`  | `True`    |
+
+---
+
+## 📦 Membership Operators
+
+| Operator | Meaning                     | Example           | Result   |
+|----------|-----------------------------|--------------------|----------|
+| `in`     | Exists in sequence          | `3 in [1,2,3]`     | `True`   |
+| `not in` | Does not exist in sequence  | `6 not in [1,2,3]` | `True`   |
+
+---
+
+## 🧠 Bitwise Operators
+
+| Operator | Meaning              | Example (`x=10`, `y=4`) | Result |
+|----------|----------------------|--------------------------|--------|
+| `&`      | Bitwise AND          | `x & y`                  | `0`    |
+| `|`      | Bitwise OR           | `x \| y`                 | `14`   |
+| `^`      | Bitwise XOR          | `x ^ y`                  | `14`   |
+| `~`      | Bitwise NOT          | `~x`                     | `-11`  |
+| `<<`     | Left Shift (x * 2ⁿ)  | `x << 2`                 | `40`   |
+| `>>`     | Right Shift (x // 2ⁿ)| `x >> 2`                 | `2`    |
+
+---
